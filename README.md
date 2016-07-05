@@ -5,17 +5,21 @@ Slack Integration with [Pimatic](https://pimatic.org).
 
 ## Plugin Configuration
 
-You can load the plugin by editing your `config.json` to include:
+You can load the plugin by editing your `config.json` in the `plugins` Array to include:
 
 ```json
 {
    "plugin": "slack",
-   "apiKey": "YOUR_SLACK_BOT_API_KEY",
-   "channelId": "SOME_DEFUALT_CHANNEL_ID"
+   "apiKey": "YOUR_SLACK_BOT_API_KEY"
 }
 ```
 
-in the `plugins` Array.
+You can also add the following optional values
+```json
+{
+   "channelId": "SOME_DEFUALT_CHANNEL_ID"
+}
+```
 
 ## TODO
 

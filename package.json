@@ -1,6 +1,6 @@
 {
   "name": "pimatic-slack",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Slack integration into Pimatic.",
   "main": "slack",
   "configSchema": "slack-config-schema.coffee",
@@ -25,7 +25,6 @@
   "author": "Andy Savage <andy@savage.hk>",
   "license": "MIT",
   "dependencies": {
-    "bluebird": "^3.4.1",
     "slack": "^7.5.6"
   }
 }
