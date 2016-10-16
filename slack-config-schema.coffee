@@ -18,7 +18,7 @@ module.exports = {
     username:
       description: "What username we should post as"
       type: "string"
-      default: ""
+      default: "pimatic"
     userIconUrl:
       description: "URL to an image to use as the icon for this message. "
       type: "string"

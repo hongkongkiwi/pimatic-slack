@@ -107,6 +107,7 @@ module.exports = (env) ->
             token: @apiKey,
             channel: channel,
             text: text
+            username: plugin.config.username
             unfurl_links: @options.unfurlLinks
             unfurl_media: @options.unfurlMedia,
           }
