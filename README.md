@@ -17,7 +17,8 @@ You can load the plugin by editing your `config.json` in the `plugins` Array to 
 You can also add the following optional values
 ```json
 {
-   "channelId": "SOME_DEFUALT_CHANNEL_ID"
+   "channelId": "SOME_DEFAULT_CHANNEL_ID",
+   "username": "SOME_USERNAME",
 }
 ```
 
